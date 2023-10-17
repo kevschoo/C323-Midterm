@@ -38,10 +38,10 @@ interface ScoreDao
     suspend fun delete(score: Score)
 
     /**
-     * Retrieves all scores from the database, ordered by playerScore in ascending order
+     * Retrieves all scores from the database, ordered by playerScore in descending order
      *
      * @return LiveData list of scores
      */
-    @Query("SELECT * FROM scores ORDER BY playerScore ASC")
+    @Query("SELECT * FROM scores ORDER BY playerScore DESC")
     fun getAllScores(): LiveData<List<Score>>
 }

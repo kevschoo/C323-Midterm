@@ -1,6 +1,9 @@
 # C323 Midterm
 
-This is an app for guessing numbers between 1-100 and it will save your score afterward. Less guesses means a better score. Scores are sorted by lowest number of guesses to highest. Names will auto default to "Unknown Player" should the player forget to provide one.
+This is an app for guessing numbers between 1-100 and it will save your score afterward. 
+Less guesses means a better score, but scores are sorted by descending values. 
+Scores are sorted by Highest number of guesses to lowest. 
+Names will auto default to "Unknown Player" should the player forget to provide one.
 
 ## Functionality 
 
@@ -27,7 +30,7 @@ Here's a walkthrough of implemented user stories:
 
 ## Notes
 
-Getting fragments inside fragments to look correct as well as layouts to match the required document was a little toughter in this assignment. The database and other logic was pretty easy though as it matched our past assignments.
+Getting fragments inside fragments to look correct as well as layouts to match the required document was a little tougher in this assignment. The database and other logic was pretty easy though as it matched our past assignments.
 
 ## License
 
